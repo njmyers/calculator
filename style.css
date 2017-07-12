@@ -1,0 +1,115 @@
+/* CSS Stylsheet */
+
+.jumbotron h1 {
+  color: white;
+}
+
+.jumbotron h2 {
+  color: white;
+}
+
+body {
+  margin: 0;
+}
+
+.jumbotron {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  height: 100vh;
+  background-color: rgba(40, 40, 40, .3);
+}
+
+.container-fluid {
+  padding: 0;
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 35px;
+  border-radius: 20px;
+  background: rgba(96, 99, 129, 1);
+  box-shadow: 4px 5px 14px 2px rgba(0,0,0,.2)
+}
+
+.btn {
+	margin: 3px;
+  height: 50px;
+  width: 50px;
+  font-size: 12px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: opacity .15s ease;
+  border: none;
+  box-shadow: 4px 8px 13px 0px rgba(0,0,0,.2);
+}
+
+.btn:active {
+  box-shadow: inset 4px 8px 13px 0px rgba(0,0,0,.2);
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+  outline: none;
+}
+
+.btn:hover, .btn:focus, .btn.focus {
+  color: white;
+}
+
+.btn:focus, .btn:active, .btn:hover, .btn:visited {
+  outline: none;
+}
+
+.blue {
+  background-color: rgba(87, 142, 236, 1);
+}
+
+.orange {
+  background-color: rgba(255, 198, 0, 1);
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.super-grey {
+  background-color: grey;
+}
+
+#result {
+  font-family: 'Share Tech Mono', monospace;
+  height: 40px;
+  width: 230px;
+  padding: 4px;
+  background: white;
+  text-align: right;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  margin-left: 2px;
+  font-size: 24px;
+}
+
+#result:focus {
+  border: 2px blue solid;
+}
+
+#all-clear, #clear {
+  height: 30px;
+  padding-top: 4px;
+}
+
+#equals {
+  width: 170px;
+}
+
+#squared {
+  padding-left: 11px;
+  padding-bottom: 8px;
+}
+
+.clear-row {
+  margin-bottom: 12px;
+}
